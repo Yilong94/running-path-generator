@@ -4,7 +4,7 @@ import { Toolbar, Typography } from "@material-ui/core";
 
 const Header: FC<{}> = () => {
   return (
-    <AppBar>
+    <AppBar position="sticky">
       <Toolbar>
         <Typography variant="h6">Running path generator</Typography>
       </Toolbar>
